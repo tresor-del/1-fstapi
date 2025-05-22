@@ -15,7 +15,5 @@ class EventCreateSchema(SQLModel):
 class EventUpdateSchema(SQLModel):
     description: str
 
-
-
 class EventListSchema(SQLModel):
     results: List[EventModel]
